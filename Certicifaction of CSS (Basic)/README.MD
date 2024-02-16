@@ -15,7 +15,6 @@ div{
 :heavy_check_mark: .greyBall:hover {transform: scale(2); transition: 0.5s;}\
 :x: .greyBall:focus {transform: scale(2); transition: 0.5s;}
 
-<img src="/Answer_images/Answer_1.png" title="answer_1">
 
 # :two: CSS Ellipsis
 
@@ -26,7 +25,6 @@ div{
 :heavy_check_mark: 'object-fit: cover;' avoids the image getting squeezed, but it could end up clipping the image.\
 :x: 'object-fit: cover;' avoids clipping the image by sacrificing the aspect ratio.
 
-<img src="/Answer_images/Answer_2.png" title="answer_2">
 
 # :three: CSS object-fit
 
@@ -39,7 +37,6 @@ div{
 :heavy_check_mark: {white-space: nowrap; overflow: hidden; text-overflow:ellipsis}\
 :x: None of the above
 
-<img src="/Answer_images/Answer_3.png" title="answer_3">
 
 # :four: CSS Text Coloring
 
@@ -52,8 +49,6 @@ div{
 :x: :root{--test-color: red;} p{color:var(--test-color);}\
 :heavy_check_mark: #tagId {color: red;}p{color:blue;}\
 :heavy_check_mark: p{colorLred !important;} #tagId{color:blue;}
-
-<img src="/Answer_images/Answer_4.png" title="answer_4">
 
 # :five: CSS selection
 
@@ -68,8 +63,6 @@ div{
 :heavy_check_mark: p{user-select: none;}\
 :x: None of the above
 
-<img src="/Answer_images/Answer_5.png" title="answer_5">
-
 # :six: CSS input Placeholder
 
 ## How do you hide the "placeholder" text of an <input> field?
@@ -79,7 +72,6 @@ div{
 :x: input::placeholder{display: none;}\
 :x: input::placeholder{visibility:hidden};
 
-<img src="/Answer_images/Answer_6.png" title="answer_6">
 
 # :seven: CSS Centering
 
@@ -96,7 +88,6 @@ div{
 :x: .parent{position: relative;}.child{position: absolute; top: 50%; ;left: 50%;}\
 :heavy_check_mark: .parent{position: relative;}.child{position: absolute; top: 50%; ;left: 50%; transform-translate(-50%, -50%);}
 
-<img src="/Answer_images/Answer_7.png" title="answer_7">
 
 # :eight: CSS Vertical-align
 
@@ -114,12 +105,3 @@ div{
 :x: .heroWord{vertical-align: 25px;} moves the word "Hack" to the top, 25px higher then ```<p>``` tag.\
 :heavy_check_mark: p img{vertical-align: text-bottom;} moves the image to the bottom with respect to the ```<p>``` tag.\
 :x: p img{vertical-align: text-bottom;} has no effect on the ```<img>``` tag.
-
-<img src="/Answer_images/Answer_8.png" title="answer_8">
-
-<table>
-  <tr>
-    <td valign="center" width="49%"><img src="https://github.com/Ruslan-Shevyrev/Ruslan-Shevyrev/blob/main/logoRS/logo_mini.gif" title="logo"></td>
-    <td valign="center" width="49%"><img src="https://github.com/Ruslan-Shevyrev/Ruslan-Shevyrev/blob/main/logoRS/logoRS_FULL.png" title="RuslanShevyrev"></td>
-  </tr>
-</table>
